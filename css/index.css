@@ -7,29 +7,29 @@ li{
     margin: 10px 15px;
 }
 
-/* PRODUCTOS */
-.productos{
+/* regiones */
+.regiones{
     width: 800px;
     background-color:#f7f6f5 ;
     overflow: hidden;
     float: left;
 }
 
-.producto{
+.region{
     width: 380px;
     margin:10px 10px 20px 10px;
     float:left;
 /* border: 1px solid red; */
 }
 
-.producto img{
+.region img{
     width: 100%;
 }
-.producto h2{
+.region h2{
     margin: 10px 0;
 }
 
-.producto a{
+.region a{
     background-color: #3483fa;
     padding: 10px;
     margin-top: 20px;
