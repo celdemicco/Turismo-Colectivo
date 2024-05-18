@@ -44,5 +44,16 @@ document.addEventListener('DOMContentLoaded', function() {
             // Maneja cualquier error que pueda ocurrir durante la carga del archivo
             console.error('Error al cargar el pie de página:', error);
         });
+    // Cambia la visibilidad del menú
+    // Seleccionar el botón de hamburguesa y el menú de navegación
+    const toggleButton = document.querySelector('.hamb');
+    const navMenu = document.querySelector('nav');
+
+    // Agregar un evento de clic al botón de hamburguesa
+        toggleButton.addEventListener('click', () => {
+    // Alternar la clase para mostrar u ocultar el menú
+        navMenu.classList.toggle('show');
+        });
+
 });
 
