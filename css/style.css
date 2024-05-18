@@ -5,8 +5,8 @@
     si defino una caja de 100px y agrego 1 borde de 10px la caja sigue de 100 y el borde es interno
     si no agrego la sieuient propiedad el borde sera ecterno = 110px*/
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin:3px;
+    padding: 3px;
 }
 
 body {
@@ -50,7 +50,7 @@ a {
 header {
     /*padding: agrega margen pero interno 
     se maneja igual que margin*/
-    width: 1140px;
+    width: 100%;
     background-color:#e6e5dc ;
     padding: 10px;
     margin-top: 10px;
@@ -82,6 +82,7 @@ header .container {
     */
     /*align-items alinea en el eje Y*/
     align-items: center;
+    width: 100%;
     height: 3.5rem;
 }
 
@@ -533,24 +534,24 @@ footer ul li {
     text-align: center;
 }
 
-#galeria {
+#destinos {
     position: relative;
     display: grid;
     background-color: beige;
 }
 
-#galeria h2 {
+#destinos h2 {
     color: rgb(179, 12, 8);
     font-size: 35px;
     position: relative
 }
 
-#galeria .bloque-inicio p {
+#destinos .bloque-inicio p {
     color: rgb(52, 51, 51);
     font-size: 16px;
 }
 
-#galeria .back_img {
+#destinos .back_img {
     background-image: url();
     background-size: cover;
     color: white;
@@ -563,6 +564,7 @@ footer ul li {
     border-radius: 3px;
     border: 1px solid #303030;
 }
+
 
 
 /* La siguiente linea modifica lo de arriba al pasar a un dispositivo de otra dimension*/
@@ -660,6 +662,13 @@ footer ul li {
         font-size: 40px;
         color: red;
     }
+
+    header .container .hamb:active {
+        display: block;
+        font-size: 40px;
+        color: rgb(199, 138, 24);
+    }
+
     .grid_container {
         display: grid;
         /* Uso un atajo para definir tres filas / tres columnas */
@@ -692,3 +701,4 @@ footer ul li {
         grid-template-areas: " img_grid" "autores_grid" "temas_grid" "redes_grid";
     }
 }
+
