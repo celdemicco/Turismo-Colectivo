@@ -131,6 +131,14 @@ header .container nav a {
 header .container .hamb {
     display: none;
 }
+/* Estilos para el menú cuando la pantalla es pequeña */
+@media (max-width: 768px) {
+    /* Hacer visible el menú */
+    header .container nav {
+        transform: translateX(0);
+    }
+}
+
 
 footer {
     background-color: rgb(12, 19, 48);
